@@ -50,7 +50,7 @@ A modern and responsive Role-Based Access Control (RBAC) system built with React
 ### API Integration
 - RESTful API integration with error handling
 - Axios interceptors for request/response handling
-- Type-safe API calls with Javascript
+- Backend deployed on render(cloud platform). so it might be taking some time for first time loading of website.
 
 ## 📱 Responsive Design
 - Mobile-first approach
