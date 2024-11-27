@@ -52,6 +52,7 @@ const UserManagement = () => {
   };
 
   const handleAddNew = () => {
+  
     setCurrentUser({ name: "", email: "", role: "User", status: "active" });
     setIsEditing(false);
     setShowModal(true);
@@ -267,12 +268,14 @@ const UserManagement = () => {
       </div>
 
       {showModal && (
+        console.log("ds"),
         <UserModal
-          user={currentUser}
-          roles={roles}
-          isEditing={isEditing}
-          onSave={handleSave}
-          onClose={() => setShowModal(false)}
+        showModal={showModal}
+        user={currentUser}
+        roles={roles}
+        isEditing={isEditing}
+        onSave={handleSave}
+        onClose={() => setShowModal(false)}
         />
       )}
     </div>
