@@ -50,7 +50,7 @@ A modern and responsive Role-Based Access Control (RBAC) system built with React
 ### API Integration
 - RESTful API integration with error handling
 - Axios interceptors for request/response handling
-- Type-safe API calls with Javascript
+- Backend deployed on render(cloud platform). so it might be taking some time for first time loading of website.
 
 ## 📱 Responsive Design
 - Mobile-first approach
@@ -75,7 +75,7 @@ A modern and responsive Role-Based Access Control (RBAC) system built with React
 
 1. Clone the repository:
 ```bash
-git clone []
+git clone https://github.com/divyanshu-pal/Assignment_vrv.git
 ```
 
 2. Install dependencies:
@@ -141,3 +141,8 @@ src/
    - Sorting capabilities
    - Search functionality
    - Dashboard analytics
+9. **Image of the websit**
+![image](https://github.com/user-attachments/assets/bf10b88e-074c-43a8-b2ee-b109579d5960)
+![image](https://github.com/user-attachments/assets/9c4f6ffc-910f-459f-9348-8005fcecf23c)
+
+
